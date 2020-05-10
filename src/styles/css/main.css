@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #007cc2;
+  font-family: 'Roboto', sans-serif; }
+
+.logo {
+  margin: 0 auto;
+  margin-top: 50px; }
+
+.searchLeg {
+  margin: 0 auto;
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 1.3em;
+  font-style: italic; }
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px; }
+
+.searchBar div {
+  width: 300px;
+  margin-top: 15px;
+  display: flex;
+  border: solid 2px #98ce1e;
+  border-radius: 20px;
+  padding: 5px 20px; }
+
+.searchBar input {
+  flex: 1;
+  border: none;
+  font-size: 1.2em;
+  font-style: italic; }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center; }
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 500px; }
+
+.column {
+  flex: .5; }
+
+.data {
+  font-size: 1.5em;
+  margin: 0; }
+
+.leg {
+  font-size: .8em;
+  font-style: italic;
+  margin: 0;
+  margin-bottom: 40px; }
+
+.notFound {
+  color: red;
+  text-align: center;
+  font-size: 1.5em; }
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: lightgrey;
+  opacity: 1;
+  /* Firefox */ }
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: lightgrey; }
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: lightgrey; }
+
+@media only screen and (max-width: 426px) {
+  .row {
+    flex-direction: column-reverse;
+    width: fit-content; } }

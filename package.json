@@ -1,0 +1,22 @@
+{
+  "name": "test-frontend-nitronews",
+  "version": "1.0.0",
+  "description": "test para vaga frontend na nitronews",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w src/styles/sass -o src/styles/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrunoSouza22397/test-frontend-nitronews.git"
+  },
+  "author": "Bruno Souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrunoSouza22397/test-frontend-nitronews/issues"
+  },
+  "homepage": "https://github.com/BrunoSouza22397/test-frontend-nitronews#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
