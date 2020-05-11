@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 $primary: #007cc2;
+$primaryLight: #0098ce;
 $secondary: #98ce1e;
 
 $mobile: 426px;
@@ -16,7 +17,7 @@ body {
     margin: 0 auto;
     margin-top: 50px;
 }
-.searchLeg {
+.searchLabel {
     margin: 0 auto;
     margin-top: 50px;
     font-weight: bold;
@@ -42,9 +43,12 @@ body {
     font-size: 1.2em;
     font-style: italic;
 }
+.searchBar input:focus {
+    outline: none;
+}
 
-.content {
-    display: flex;
+#content {
+    display: none;
     flex-direction: column;
     margin: 0 auto;
     text-align: center;
@@ -62,17 +66,20 @@ body {
     font-size: 1.5em;
     margin: 0;
 }
-.leg {
+.label {
     font-size: .8em;
     font-style: italic;
+    font-weight: 550;
     margin: 0;
     margin-bottom: 40px;
+    color: $primaryLight;
 }
 
-.notFound {
+#notFound {
     color: red;
     text-align: center;
     font-size: 1.5em;
+    display: none;
 }
 
 //Cor do placeholder para o input
@@ -93,5 +100,9 @@ body {
     .row {
         flex-direction: column-reverse;
         width: fit-content;
+        margin: 0 auto;
+    }
+    .priceColumn {
+        display: none;
     }
 }
