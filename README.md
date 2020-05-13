@@ -28,7 +28,8 @@
 * JS = Gerar em ES5 e minificado.
 
 ## Desenvolvimento
-'npm run sass' - script observa mudanças na pasta sass e as renderiza na pasta css
+npm install - instala dependencias
+npm start - gera pasta dist para desenvolvimento e inicia server para observar mudanças no codigo
 
 ## Produção
-/* Coloque aqui os procedimentos para ambiente de produção */
+npm run build - gera pasta dist para produção
