@@ -28,8 +28,9 @@
 * JS = Gerar em ES5 e minificado.
 
 ## Desenvolvimento
-npm install - instala dependencias
-npm start - gera pasta dist para desenvolvimento e inicia server para observar mudanças no codigo
+npm install - instala dependências
+npm start - gera pasta dist para desenvolvimento e inicia server para observar mudanças no código
 
 ## Produção
-npm run build - gera pasta dist para produção
+npm install - instala dependências
+npm run build - gera pasta dist para produção com arquivos minificados
