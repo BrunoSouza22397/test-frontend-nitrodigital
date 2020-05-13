@@ -36,7 +36,7 @@ export const getData = () => {
                 }
             }
         }
-        req.open("GET", "../src/data/dados.json", true)
+        req.open("GET", "../data/dados.json", true)
         req.send()
     } else {
         document.getElementById('notFound').style.display = 'block'
