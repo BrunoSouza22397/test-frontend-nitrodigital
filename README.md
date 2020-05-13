@@ -29,8 +29,10 @@
 
 ## Desenvolvimento
 npm install - instala dependências
+
 npm start - gera pasta dist para desenvolvimento e inicia server para observar mudanças no código
 
 ## Produção
 npm install - instala dependências
+
 npm run build - gera pasta dist para produção com arquivos minificados
